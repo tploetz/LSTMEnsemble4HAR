@@ -14,7 +14,13 @@ A csv files will be created when running fusionensemble.py to collect the fused 
 
 Python version: python3
 
-
+#################################
+When you clone this repository, please use: 'git lfs clone' rather than directly use 'git clone' or download the zip file(as the datasets are stored in Git Large File Storage).
+Below shows how to install lfs:
+https://github.com/git-lfs/git-lfs/wiki/Installation
+or
+https://git-lfs.github.com
+#################################
 
 If you use the code, we would appreciate if you can cite this work:
 Yu Guan and Thomas Plötz. 2017. Ensembles of Deep LSTM Learners for Activity Recognition using Wearables. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) 1, 2, Article 11 (June 2017), 28 pages. DOI: https://doi.org/10.1145/3090076
