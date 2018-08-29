@@ -1,4 +1,7 @@
 # Ignore everything in this directory
 *
 # Except this file
+code/model
+code/results
+code/Trial
 !.gitignore
