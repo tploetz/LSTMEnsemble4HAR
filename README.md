@@ -26,4 +26,4 @@ Yu Guan and Thomas Plötz. 2017. Ensembles of Deep LSTM Learners for Activity Re
 
 Acknowledgement: Yu Guan's postgraduate student Xinchao Cheng managed to write all the tensorflow code, based on Yu's original Theano+lasagne code 
 
-Any questions about the code, please email: chengxinchao0116@gmail.com
+Any questions about the code, please email: 229779981@qq.com (or chengxinchao0116@gmail.com)
