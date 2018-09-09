@@ -16,8 +16,8 @@ Python version: python3
 
 Clone the repository as usual.
 
-Manually download the Opportunity dataset file in the required format for re-running the experiments here:
-https://goo.gl/YxbR27 
+Manually download the dataset files in the required format for re-running the experiments here:
+https://goo.gl/wgEuhu 
 
 If you use the code, please cite:
 Yu Guan and Thomas Plötz. 2017. Ensembles of Deep LSTM Learners for Activity Recognition using Wearables. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) 1, 2, Article 11 (June 2017), 28 pages. DOI: https://doi.org/10.1145/3090076
