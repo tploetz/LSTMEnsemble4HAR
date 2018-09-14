@@ -30,7 +30,7 @@ dim = len(test_x[0])
 #####################################################
 # can change valid and test batch size to increase the speed of training process, but it will effect the results
 # especially for balanced dataset.
-test_win = 5000
+test_win = 5000 # set test_win=5000 or test_win=1 has exactly same result. But test_win=5000 is much faster
 test_bt = 1
 test_se = len(test_x)//test_bt
 test_x = test_x[:test_se*test_bt,]
