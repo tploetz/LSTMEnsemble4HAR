@@ -6,7 +6,7 @@ import pandas as pd
 def loadingDB(fileDir, DB=79):
 	
 	if DB==79: 
-		matfile = fileDir+'Opp/Opp'+str(DB)+'.mat'
+		matfile = fileDir+'Ensemble-datasets/OPP/Opp'+str(DB)+'.mat'
 		print(matfile)
 		data = scipy.io.loadmat(matfile)
 		
@@ -33,7 +33,7 @@ def loadingDB(fileDir, DB=79):
 		print('loading the 79-dim matData successfully . . .')
 
 	if DB==60:
-		matfile = fileDir+'Skoda.mat'
+		matfile = fileDir+'Ensemble-datasets/Skoda.mat'
 		data = scipy.io.loadmat(matfile)
 
 		X_train = data['X_train']
@@ -50,7 +50,7 @@ def loadingDB(fileDir, DB=79):
 		print('loading the 33HZ 60d matData successfully . . .')
 
 	if DB==9:
-		matfile = fileDir+'FOG.mat'
+		matfile = fileDir+'Ensemble-datasets/FOG.mat'
 		data = scipy.io.loadmat(matfile)
 		
 		X_train = data['X_train']
@@ -71,7 +71,7 @@ def loadingDB(fileDir, DB=79):
 		print('loading the 32HZ FOG 9d matData successfully . . .')
 	
 	if DB==52:
-		matfile = fileDir+'PAMAP2.mat'
+		matfile = fileDir+'Ensemble-datasets/PAMAP2.mat'
 		data = scipy.io.loadmat(matfile)
 		
 		X_train = data['X_train']
