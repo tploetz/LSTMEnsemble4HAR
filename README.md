@@ -18,6 +18,7 @@ Clone the repository as usual.
 
 Manually download the dataset files in the required format for re-running the experiments here:
 https://goo.gl/wgEuhu 
+Then put the whole dataset file(named "Ensemble-datasets") in this project file(named "LSTMEnsemble4HAR-master").
 
 If you use the code, please cite:
 Yu Guan and Thomas Plötz. 2017. Ensembles of Deep LSTM Learners for Activity Recognition using Wearables. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (IMWUT) 1, 2, Article 11 (June 2017), 28 pages. DOI: https://doi.org/10.1145/3090076
